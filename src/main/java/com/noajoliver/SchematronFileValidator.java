@@ -37,7 +37,7 @@ import java.util.regex.Pattern;
 public class SchematronFileValidator {
 
     private static final Logger logger = LoggerFactory.getLogger(SchematronFileValidator.class);
-    private static final int THREAD_POOL_SIZE = 8; // Adjust this based on your system's capabilities
+    private static final int THREAD_POOL_SIZE = 12; // Adjust this based on your system's capabilities
     private static final int MAX_LINES_PER_FILE = 100000;
 
     // Pause and Resume control
